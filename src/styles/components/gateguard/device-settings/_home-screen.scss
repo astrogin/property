@@ -1,0 +1,23 @@
+.home-screen__container {
+  .title {
+    margin: 15px 0;
+  }
+  .sub-section__container {
+    @media (max-width: 768px) {
+      & {
+        margin-left: 25px;
+      }
+    }
+    margin-left: 50px;
+  }
+  .person-input__container {
+    .el-row {
+      &:not(:first-child) {
+        padding-top: 10px;
+      }
+    }
+    .person-input__label {
+      opacity: 0;
+    }
+  }
+}

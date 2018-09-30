@@ -1,0 +1,16 @@
+.organizations_view_container {
+  .organizations_view_header_container {
+    h2, button {
+      display: inline-block;
+      margin: 10px;
+      vertical-align: top;
+    }
+    margin-bottom: 15px;
+  }
+  .organizations_pagination_container {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+  }
+}

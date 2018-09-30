@@ -1,0 +1,55 @@
+.device-settings__container {
+  padding-bottom: 35px;
+  .settings-steps {
+    margin-top: 15px;
+    justify-content: center;
+    .el-step__title {
+      font-size: 14px;
+      &.is-process {
+        font-weight: 600;
+      }
+    }
+    // @media (max-width: 768px) {
+    //   & {
+    //     display: none;
+    //   }
+    // }
+  }
+  .settings-steps-mobile {
+    margin: 0 -10px;
+    .el-menu-item {
+      padding: 0 10px;
+      font-size: 12px;
+    }
+    .el-submenu__title {
+      padding: 0;
+      font-size: 12px;
+    }
+    .current-step {
+      font-weight: bold;
+    }
+    .remain-steps {
+      float: right;
+    }
+    // @media (min-width: 769px) {
+    //   & {
+    //     display: none;
+    //   }
+    // }
+  }
+  .el-step__title {
+    line-height: unset;
+  }
+  .el-step__main {
+    padding-top: 5px;
+  }
+  .el-radio, .el-checkbox {
+    white-space: unset;
+    @media (max-width: 768px) {
+      & {
+        line-height: 18px;
+      }
+    }
+  }
+}
+

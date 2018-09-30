@@ -1,0 +1,15 @@
+.el-dialog {
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+.el-dialog__wrapper {
+  -webkit-overflow-scrolling: touch;
+}
+
+.el-popup-parent--hidden {
+  .content-wrapper {
+    overflow: hidden;
+  }
+}

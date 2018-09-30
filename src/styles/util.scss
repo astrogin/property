@@ -1,0 +1,52 @@
+$base-space-size: .25rem;
+$directions: t r b l;
+@for $i from 0 through 5 {
+  @each $direction in $directions {
+    .m#{$direction}-#{$i} {
+      @if $direction == t {
+        margin-top: $i * $base-space-size;
+      }
+      @if $direction == r {
+        margin-right: $i * $base-space-size;
+      }
+      @if $direction == b {
+        margin-bottom: $i * $base-space-size;
+      }
+      @if $direction == l {
+        margin-left: $i * $base-space-size;
+      }
+    }
+    .p#{$direction}-#{$i} {
+      @if $direction == t {
+        padding-top: $i * $base-space-size;
+      }
+      @if $direction == r {
+        padding-right: $i * $base-space-size;
+      }
+      @if $direction == b {
+        padding-bottom: $i * $base-space-size;
+      }
+      @if $direction == l {
+        padding-left: $i * $base-space-size;
+      }
+    }
+  }
+};
+
+.cursor-pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.d-block {
+  display: block !important;
+}
+
+.d-inline-block {
+  display: inline-block !important;
+}
+
+.d-none {
+  display: none !important;
+}

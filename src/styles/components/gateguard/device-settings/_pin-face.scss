@@ -1,0 +1,29 @@
+
+.pin-face-form-step__container {
+  .form__title {
+    margin-bottom: 15px;
+  }
+  input[type='radio'] {
+    position: absolute;
+  }
+  .font-weight-bold {
+    font-weight: bold;
+  }
+  .pin-entry-delay__input {
+    width: 80px;
+    margin: 0 5px;
+  }
+  .description-text {
+    font-size: 0.9em;
+    font-style: italic;
+    line-height: 1.5;
+    .star {
+      color: red;
+      margin-right: 5px;
+    }
+  }
+  .note {
+    line-height: 18px;
+    margin-top: 1.25rem;
+  }
+}

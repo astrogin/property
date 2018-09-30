@@ -1,0 +1,42 @@
+#propertypanel-app {
+  height: 100%;
+}
+
+#gg-wrap {
+  .el-radio-second-vertical {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  label {
+    font-weight: normal;
+    line-height: 1.5;
+  }
+  .el-radio__input {
+    input[type="radio"] {
+      margin: 0;
+      position: absolute;
+    }
+  }
+}
+
+.el-loading-mask {
+  z-index: 1;
+}
+
+.element-table-custom {
+  table, thead {
+    font-size: 11px;
+    color: #333333;
+    th .cell {
+      padding: 3px 5px;
+      word-wrap: normal;
+      word-break: normal;
+    }
+  }
+}
+.el-form-item {
+  margin-bottom: 15px;
+}
+.el-form-item__content {
+  line-height: 1.428571429;
+}

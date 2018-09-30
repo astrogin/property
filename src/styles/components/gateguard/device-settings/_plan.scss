@@ -1,0 +1,61 @@
+.price-plan-block {
+  text-align: center;
+  background: #0d3b5d;
+  box-shadow: 0 3px 3px #666;
+  border-radius: 8px;
+  padding-top: 25px;
+  color: #fff;
+  margin-bottom: 20px;
+  .el-step__icon {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #41c8f2;
+    background: #41c8f2;
+    margin-right: 5px;
+    color: #fff;
+  }
+  .txt-1, .txt-2 {
+    display: inline-block;
+  }
+  .txt-1 {
+    width: 30%;
+  }
+  .txt-2 {
+    width: 70%;
+    margin: 0 0 15px 0;
+    padding: 0;
+  }
+  .block-txt {
+    margin: 0;
+    color: #d4d4d4;
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: left;
+    margin: 0;
+    padding: 30px 20px 20px 20px;
+  }
+  .btm-block {
+    margin: 0;
+    padding: 0 0 50px 0;
+    h4 {
+      margin: 20px 0;
+      padding: 0;
+      color: #fff;
+      font-size: 24px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+  .top-block {
+    border-bottom: 1px solid #ddd;
+    h3 {
+      margin: 0 0 20px 0;
+      padding: 0;
+      color: #fff;
+      font-size: 24px;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+}
